@@ -12,15 +12,30 @@ body{
   min-height: 100vh;
   display: flex;
   align-items: center;
-  justify-content: center;
 }
 
-.profile-card{
+.profile{
+  display: flex;
+}
+
+.profile-hoanh{
   width: 420px;
   overflow: hidden;
   text-align: center;
   position: relative;
   box-shadow: 0 0 10px #00000070;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.profile-sy{
+  width: 420px;
+  overflow: hidden;
+  text-align: center;
+  position: relative;
+  box-shadow: 0 0 10px #00000070;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
 .top-section{
